@@ -4,7 +4,6 @@ const path = require('path');
 
 const PORT = 8888
 
-
 app.use(express.static("asset"));
 
 app.get('/', function (req, res) {
